@@ -42,6 +42,7 @@ configure :build do
   activate :gzip
   activate :minify_css
   activate :relative_assets
+  activate :livereload
 end
 
-activate :metaman, host: 'https://domain.com'
+activate :metaman, host: 'https://carlostopete.me'
