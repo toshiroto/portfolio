@@ -1,5 +1,14 @@
 .banner {
   height: 100vh;
+
+  img {
+  border-radius: 50%;
+  border-style: outset;
+  border-color: rgb(255, 130, 251);
+  border-width: 4px;
+  width: 300px;
+
+}
 }
 
 .title-main {
@@ -27,14 +36,7 @@ h2 {
   font-weight: bolder;
 }
 
-img {
-  border-radius: 50%;
-  border-style: outset;
-  border-color: rgb(255, 130, 251);
-  border-width: 4px;
-  width: 300px;
 
-}
 
 i {
   font-size: 40px;
