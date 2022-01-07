@@ -1,14 +1,28 @@
-.banner {
-  height: 100vh;
-
-  img {
-  border-radius: 50%;
-  border-style: solid;
-  border-color: white;
-  border-width: 4px;
-  width: 300px;
+body{
+  background: #47419b;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #000000 0%,#99104e 48%,#e84a84 100%);
+  background-size: cover;
 
 }
+
+h1 {
+  color: #A9B2BA;
+}
+
+img {
+border-radius: 50%;
+border-style: solid;
+border-color: white;
+border-width: 4px;
+width: 300px;
+
+}
+.banner {
+  height: 100vh;
+  color: white;
+
+
 }
 
 .title-main {
@@ -39,6 +53,17 @@ h2 {
 
 
 i {
-  font-size: 40px;
-  padding: 0 20px;
+  font-size: 32px;
+  padding: 0 40px;
+  color: white;
+}
+
+.navigation-button{
+  img {
+    width: 80px;
+    max-height: auto;
+    border:none;
+    border-radius: 0%;
+    padding: 10px 20px;
+  }
 }
