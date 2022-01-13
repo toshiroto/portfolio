@@ -25,7 +25,7 @@
   flex-direction: column;
   justify-content: space-between;
   span {
-    color: $lightgray;
+    color: $light-gray;
     font-size: 22px;
   }
   p {
@@ -42,12 +42,12 @@
   }
   .offline {
     color: white;
-    background-color: $lightgray;
+    background-color: $light-gray;
     padding: 0 8px;
     font-size: 12px;
     border-radius: 12px;
     &:hover {
-      background-color: $lightgray;
+      background-color: $light-gray;
       color: white;
       text-decoration: none;
     }
@@ -65,7 +65,7 @@
 .external-link {
   margin-left: 8px;
   opacity: 0;
-  color: $normal-gray;
+  color: $gray;
   transition: opacity 1s;
   &:hover {
     cursor: pointer;
