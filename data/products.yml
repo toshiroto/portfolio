@@ -1,6 +1,9 @@
 - name: Movie Watch List
   image: watch_list.png
+  description: Track and organize your favorite movies
 - name: Deckfinder
-  image: other_product.png
+  image: Deckfinder.png
+  description: A market place for card players and card collectors
 - name: The Blender
-  image: other_product.png
+  image: The_Blender.png
+  description: A tool for tracking and managing Fundación En Via microloans. 
