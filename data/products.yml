@@ -1,4 +1,6 @@
 - name: Movie Watch List
   image: watch_list.png
-- name: Other product
+- name: Deckfinder
+  image: other_product.png
+- name: The Blender
   image: other_product.png
