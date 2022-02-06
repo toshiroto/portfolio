@@ -1,9 +1,9 @@
 import 'bootstrap';
 
-const numberOfIcons = document.querySelectorAll('.navigation-button').length;
+const numberOfIcons = document.querySelectorAll('.devicon').length;
 
 for (let i = 0; i < numberOfIcons; i++) {
-  document.querySelectorAll('.navigation-button')[i].addEventListener('mouseover', function () {
+  document.querySelectorAll('.devicon')[i].addEventListener('mouseover', function () {
     this.style.width = '100px';
   });
 }
