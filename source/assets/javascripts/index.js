@@ -1,9 +1,9 @@
 import 'bootstrap';
 
-const numberOfIcons = document.querySelectorAll('.img').length;
+const numberOfIcons = document.querySelectorAll('.navigation-button').length;
 
 for (let i = 0; i < numberOfIcons; i++) {
-  document.querySelectorAll('.img')[i].addEventListener('mouseover', function () {
+  document.querySelectorAll('.navigation-button')[i].addEventListener('mouseover', function () {
     this.style.width = '100px';
   });
 }
