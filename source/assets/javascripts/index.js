@@ -11,5 +11,5 @@ function big(e) {
 for (let i = 0; i < numberOfIcons; i++) {
   const icon = document.querySelectorAll('.devicon')[i];
 
-  icon.addEventListener('mouseenter', big);
+  icon.addEventListener('mouseover', big);
 }
